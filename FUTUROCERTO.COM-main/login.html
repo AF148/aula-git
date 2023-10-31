@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futuro certo: login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-<form>
-    <label for="nome">Nome</label><br>
-    <input type="text" id="nome" name="name" required><br>
+    <h1>Faço o seu login</h1>
+    
+<div>
+    <!--Inserir email registrado-->
+    <form>
+    <label for="email">email:</label><br>
+    <input class="email" type="email" id="email" value=""required autocomplete="on"><br><br>
 
-    <label for="e-mail">E-mail</label><br>
-    <input type="email" id="email" name="email" required><br>
+    <!--Inserir Senha registrada-->
+    <label for="senha">Senha:</label><br>
+    <input class="senha" type="text" id="senha" name="senha"required autocomplete="on"><br><br>
 
-    <label for="senha">Senha</label><br>
-    <input type="text" id="senha" name="senha"required><br>
+    <!--Enviar e resetar-->
+    <input class="Enviar" type="submit" value="enviar">
 
-    <input type="submit" value="enviar">
-
-
-
-
+    <input class="Resetar" type="reset" value="Resetar">
 </form>    
-
-
-
-
-
+<div>
+<p>caso não tenha registro clique <a href="cadastro.html">aqui</a></p>
 </body>
 </html>

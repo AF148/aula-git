@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> Futuro Certo Cadastro</title>
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+<div>
+<h1>Coloque as suas informações abaixo:</h1>
+
+
+
+</div>
+
+<div>
+<form action="cadastro.php" method="post" 
+autocomplete="off">
+    
+    <!--inserir o seu Nome-->
+    <label for="nome">Nome Completo:</label><br>
+    <input class="nome" type="text" name="Nome Completo" id="nome" required><br><br>
+     
+    <!--Inserir o seu email-->
+    <label for="Email">Email:</label><br>
+    <input class="Email" type="Email" name="Email" id="Email"required><br><br>
+
+    <!--Criar Sua Senha-->
+    <label  for="Criar Senha">Criar Senha:</label><br>
+    <input class="Senha" type="password" name="password" id="Criar Senha"required minlength="8" maxlength="8"><br><br>
+
+    <!--Confirmar Senha-->
+    <label for="Confirmar Senha">Confirmar Senha:</label><br>
+    <input class="Csenha" type="password" name="Confirmar Senha" id="Confirmar Senha" minlength="8" maxlength="8"required><br><br>
+
+    <!--Número de Telefone-->
+    <label for="Número de Telefone">Número de Telefone:</label><br>
+    <input class="Tel" type="tel" name="Número de Telefone" id="Número de Telefone" minlength="14" maxlength="14"required><br><br>
+
+    <!--inserir seu CEP-->
+    <label for="CEP">CEP:</label><br>
+    <input class="CEP" type="number" name="CEP" id="CEP" minlength="9" maxlength="9" required><br><br>
+
+    <!--Número de CPF-->
+    <label for="CPF">CPF:</label><br>
+    <input class="CPF" type="number" name="CPF" id="CPF" required><br><br>
+
+    <!--Botões de enviar e resetar-->
+    <input class="Enviar" type="submit" value="Enviar">
+    <input class="Resetar" type="reset" value="Resetar">
+</form>
+</div>
+
+<div>
+<style>
+
+
+
+
+</style>
+
+</div>
+
+
+</body>
+</html>

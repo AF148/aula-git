@@ -1,0 +1,55 @@
+*{
+    -webkit-box-align: center;
+    color: #ff6b6b;
+    justify-content: center;
+    align-items: center;
+    display: grid ;
+    place-items: center ;
+    margin:1px ;
+    padding: 5px;
+    }
+
+    h1{
+        text-decoration-line: underline;
+        text-align: center;
+    }
+    
+
+.email{
+    color: #ff6b6b;
+    background-color: black;
+    text-transform: none;
+    margin:1px ;
+    padding: 5px;
+    font-size: larger;
+    text-decoration:underline ;
+    border-style: solid;
+    font-variant: normal;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.senha{
+    color: #ff6b6b;
+    background-color: black;
+    text-transform: none;
+    margin:1px ;
+    padding: 5px;
+    font-size: larger;
+    text-decoration:underline ;
+    border-style: solid;
+    font-variant: normal;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.Enviar{
+    color:#ff6b6b;
+    background-color: black;
+    }
+
+    .Resetar{
+color:#ff6b6b;
+background-color: black;
+
+
+    }
