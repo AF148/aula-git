@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data com jQuery</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div id="data">12/31/2019</div>
+<script>
+    $(function(){
+        var data = $("#data").text(); //coletar valor do elemento
+
+        aux = data.split("/");//separar o texto pela /
+
+        var nova_data = aux[1]+"/"+aux[0]+ "/"+aux[2];//corrigir a data para o padrão brasileiro
+
+        $("#data").text(nova_data);//grava a nova data
+    })
+</script>
+</body>
+</html>
