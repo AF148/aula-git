@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obter informações sobre o Navegador</title>
+</head>
+<body>
+    <p id="infoNavegador"></p>
+    <script>
+        //JavaScript para obter informações sobre o navegador
+        var infoNavegador = document.getElementById("infoNavegador")
+        var match = navigator.userAgent.match(/chrome\/(\s+)/);
+        //Exibe a versão do chrome ou uma mensagem alternativa
+        infoNavegador.innerHTML = match ? "Versão do chrome: "
+        + match
+    </script>
+</body>
+</html>

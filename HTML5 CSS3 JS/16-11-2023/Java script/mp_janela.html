@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação sa Configuração da Janela</title>
+</head>
+<body>
+    <button onclick="manipularJanela()">Manipular Janela</button>
+   <script>
+    function manipularJanela(){
+        //Abre uma nova janela
+        var novaJanela = window.open("", "_blank","width= 300, height=200");
+
+        //Define o título da nova Janela
+        novaJanela.document.title = "Nova Janela";
+
+        //Adiciona conteúdo a nova Janela
+        novaJanela.document.body.innerHTML ="<h1>Conteúdo da Nova Janela</h1>";
+
+        //Define um temporazidor para fechar a nova janela após 3 segundos (3000 milissegundos)
+        setTimeout(function(){
+            novaJanela.close();
+        }, 3000);
+    }
+   </script> 
+</body>
+</html>
